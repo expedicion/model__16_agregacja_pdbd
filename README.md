@@ -1,2 +1,2 @@
-# model__16_graf_pdbd
-Lec | Graf: materiał - składniki
+# model__16_agregacja_pdbd
+Lec | Agregacja
