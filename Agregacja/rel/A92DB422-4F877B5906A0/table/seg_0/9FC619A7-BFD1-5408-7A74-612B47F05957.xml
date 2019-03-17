@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9FC619A7-BFD1-5408-7A74-612B47F05957" name="ROZDZIAL">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 16:25:57 UTC</createdTime>
+<generatorID>5E054AE8-A48E-43EE-4957-5611B71DE3EA</generatorID>
+<ownerDesignName>Agregacja</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NR_PUBLIKACJI" id="FCBF8701-5195-F252-546C-75D744A7B100">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 16:25:57 UTC</createdTime>
+<generatorID>9B2D5E23-2064-25D1-2DDB-1EBC90A4A6BE</generatorID>
+<ownerDesignName>Agregacja</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A1E97787-33DB-1D42-5C7C-C6BD10040BDC" referredColumn="9438575B-DF37-0955-24E1-E6CE93899B81"/>
+</associations>
+</Column>
+<Column name="NR_ROZDZIALU" id="32A555DE-52E2-3A97-D2F5-4CAA73C36558">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 16:25:57 UTC</createdTime>
+<generatorID>F6CDF745-4653-E0B7-DA8E-CDBB08A1C7B8</generatorID>
+<ownerDesignName>Agregacja</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYTUL" id="38A8A1DC-B75C-AB19-9BE2-BE6F384C00B4">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 16:25:57 UTC</createdTime>
+<generatorID>4B44CFCC-590D-4F75-8BED-BEE40C7DDB44</generatorID>
+<ownerDesignName>Agregacja</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ADA877C4-AE59-93D6-5C53-34C461CE7FB6" name="ROZDZIAL_PK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 16:25:57 UTC</createdTime>
+<generatorID>6F765F91-30E0-F483-841C-D0C56CA6C82E</generatorID>
+<ownerDesignName>Agregacja</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32A555DE-52E2-3A97-D2F5-4CAA73C36558"/>
+<colUsage columnID="FCBF8701-5195-F252-546C-75D744A7B100"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F916234-21F2-4B99-E5EC-460B9875C2E8" name="ROZDZIAL_PUBLIKACJA_FK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 16:25:57 UTC</createdTime>
+<generatorID>EA014D79-73D2-6CA2-407D-6D40B834D2E2</generatorID>
+<ownerDesignName>Agregacja</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FCBF8701-5195-F252-546C-75D744A7B100"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

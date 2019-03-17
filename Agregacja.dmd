@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Agregacja" id="C1271301-4ABB-3ADC-C903-9BEB5494FF65" version="3.5">
+<createdBy>kozelski</createdBy>
+<createdTime>2019-03-11 14:46:32 UTC</createdTime>
+<ownerDesignName>Agregacja</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>C1271301-4ABB-3ADC-C903-9BEB5494FF65</designId>
+</OSDM_Design>

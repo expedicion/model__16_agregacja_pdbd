@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5E054AE8-A48E-43EE-4957-5611B71DE3EA" name="ROZDZIAL">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 16:21:42 UTC</createdTime>
+<ownerDesignName>Agregacja</ownerDesignName>
+<engineerTo>
+<item key="A92DB422-0EA5-DDF9-9544-4F877B5906A0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NR_PUBLIKACJI" id="9B2D5E23-2064-25D1-2DDB-1EBC90A4A6BE">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 16:24:29 UTC</createdTime>
+<generatorID>EA014D79-73D2-6CA2-407D-6D40B834D2E2</generatorID>
+<ownerDesignName>Agregacja</ownerDesignName>
+<engineerTo>
+<item key="A92DB422-0EA5-DDF9-9544-4F877B5906A0" value="true"/>
+</engineerTo>
+<referedAttribute>2DBE04D1-4D81-A40E-A12F-B1FFED1FC9C2</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_ROZDZIALU" id="F6CDF745-4653-E0B7-DA8E-CDBB08A1C7B8">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 16:21:56 UTC</createdTime>
+<ownerDesignName>Agregacja</ownerDesignName>
+<engineerTo>
+<item key="A92DB422-0EA5-DDF9-9544-4F877B5906A0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TYTUL" id="4B44CFCC-590D-4F75-8BED-BEE40C7DDB44">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 16:22:09 UTC</createdTime>
+<ownerDesignName>Agregacja</ownerDesignName>
+<engineerTo>
+<item key="A92DB422-0EA5-DDF9-9544-4F877B5906A0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6F765F91-30E0-F483-841C-D0C56CA6C82E" name="ROZDZIAL PK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 16:22:05 UTC</createdTime>
+<ownerDesignName>Agregacja</ownerDesignName>
+<engineerTo>
+<item key="A92DB422-0EA5-DDF9-9544-4F877B5906A0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F6CDF745-4653-E0B7-DA8E-CDBB08A1C7B8</attributeRef>
+<attributeRef>9B2D5E23-2064-25D1-2DDB-1EBC90A4A6BE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

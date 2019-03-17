@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0320890F-AB7C-6035-D9B2-2DCCCA4B9AF1" name="PUBLIKACJA">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 16:25:57 UTC</createdTime>
+<generatorID>17DF5BEB-30E3-D1C0-B60A-6D44744D4074</generatorID>
+<ownerDesignName>Agregacja</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NR_PUBLIKACJI" id="9438575B-DF37-0955-24E1-E6CE93899B81">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 16:25:57 UTC</createdTime>
+<generatorID>2DBE04D1-4D81-A40E-A12F-B1FFED1FC9C2</generatorID>
+<ownerDesignName>Agregacja</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYTUL" id="5DDD74AF-FF55-D889-9E22-D44D68402A4B">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 16:25:57 UTC</createdTime>
+<generatorID>98E68CAF-1D47-EA85-B3BA-95281654B340</generatorID>
+<ownerDesignName>Agregacja</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYTUL_PULIKACJI" id="69250D2E-CDBF-32EC-F581-188FEE7239F9">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 16:25:57 UTC</createdTime>
+<generatorID>095E9F57-3BB2-E059-79C4-704FDA22B0D7</generatorID>
+<ownerDesignName>Agregacja</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LICZBA_STRON" id="FD384A28-DE05-4948-8EFF-A8861715DD9D">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 16:25:57 UTC</createdTime>
+<generatorID>C438792A-D7BC-85A5-97ED-5EADB124582A</generatorID>
+<ownerDesignName>Agregacja</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3E8C0FAB-6522-8CAD-FA00-B7353F5C8058" name="PUBLIKACJA_PK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 16:25:57 UTC</createdTime>
+<generatorID>AE9EE222-85BA-1BA5-7FAC-CF9FDA0EF0A9</generatorID>
+<ownerDesignName>Agregacja</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9438575B-DF37-0955-24E1-E6CE93899B81"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

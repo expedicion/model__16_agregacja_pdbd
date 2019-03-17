@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="D11FE739-DA45-177B-481E-9E90FF7DC84F" mainViewID="AF68665E-1B17-2E9A-7D4A-063276EBEDA4">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 14:46:32 UTC</createdTime>
+<ownerDesignName>Agregacja</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
